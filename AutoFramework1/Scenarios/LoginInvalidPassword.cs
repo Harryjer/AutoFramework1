@@ -3,6 +3,8 @@
     using OpenQA.Selenium;
     using NUnit.Framework;
     using System.Threading;
+
+    [Parallelizable]
     public class LoginInvalidPassword
     {
         IAlert alert;
